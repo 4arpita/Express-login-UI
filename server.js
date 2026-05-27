@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // test endpoint
-app.get('/',(req,res)=>{
+app.get('/hello',(req,res)=>{
     res.send('Hello World');
 });
 
