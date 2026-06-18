@@ -14,7 +14,7 @@ const chrome = require('selenium-webdriver/chrome');
     try {
         await driver.manage().setTimeouts({ implicit: 10000 }); // 5 seconds   
 
-        await driver.get('http://localhost:3000/');
+        await driver.get('http://localhost:4000/');
 
         // wait until page loads
         await driver.wait(until.elementLocated(By.id('username')), 5000);
