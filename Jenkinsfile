@@ -9,8 +9,8 @@ pipeline {
     environment {
         APP_NAME       = "express-login-ui"
         IMAGE_NAME     = "nileshsun/express-login-ui"
-        CONTAINER_PORT = "4000"
-        HOST_PORT      = "4000"
+        CONTAINER_PORT = "3000"
+        HOST_PORT      = "3000"
     }
 
     stages {
